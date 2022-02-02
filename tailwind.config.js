@@ -9,6 +9,7 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    
     fontFamily: {
       sans: ["poppins"],
     },
@@ -28,10 +29,14 @@ module.exports = {
       width: {
         116: "29rem",
         144: "36rem",
+        154: "36rem",
         175: "43rem",
+        506: "31.625rem",
       },
       padding: {
         108: "27rem",
+        26: "1.625rem",
+        29: "1.813rem",
       },
       fontFamily: {
         poppins: ["poppins"],

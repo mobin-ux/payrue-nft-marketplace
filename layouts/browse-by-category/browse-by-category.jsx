@@ -12,8 +12,11 @@ const ItemStyle = styled.div`
     height: 285px;
   }
   div {
-    border: 4px solid #ffffff;
+    border-style: solid;
+    border-color: rgb(255 255 255);
+    border-top-width: 4px;
     backdrop-filter: blur(14px);
+    background: rgba(255, 255, 255, 0.6);
   }
 `;
 const BrowseByCategory = ({ properties, categories }) => {
@@ -45,7 +48,7 @@ const BrowseByCategory = ({ properties, categories }) => {
                 backgroundImage={el.image}
                 isLarg={el.isLarg}
               >
-                <div className="w-full py-5 text-center text-payrue-home-blue font-semibold text-3xl">
+                <div className="w-full py-5 text-center text-payrue-home-blue font-semibold text-2xl ">
                   {el.title}
                 </div>
               </ItemStyle>

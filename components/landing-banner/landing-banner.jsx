@@ -20,9 +20,7 @@ const LandingBanner = () => {
               />
             </span>
             <h1
-              className="mx-0 font-semibold text-4xl lg:text-5xl 
-        text-payrue-black text-center lg:text-left font-poppins"
-            >
+              className="mx-0 font-semibold text-3xl lg:text-5xl sm:text-4xl text-payrue-black text-center lg:text-left font-poppins">
               Best Place to Collect, <br /> Buy and Sell NFT ASSETS
             </h1>
 
@@ -45,7 +43,7 @@ const LandingBanner = () => {
             className={`bg-white inline-flex flex-col mt-2 lg:mt-16 ${css.w77}`}
           >
             <div className={css.backgroudnImageCart}></div>
-            <div className="bg-white flex py-8 px-7 justify-between items-center">
+            <div className="bg-white flex py-29 px-26 justify-between items-center">
               <p className="text-payrue-black font-poppins text-2xl">Art</p>
               <Link prefetch={false} href="/john-doe">
                 <a className="text-payrue-home-blue font-poppins text-2xl">

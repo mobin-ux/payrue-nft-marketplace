@@ -15,7 +15,7 @@ const LandingBrowseCollection = () => {
           >
             <img
               src={el.avatar}
-              className="absolute left-0 border-8 border-white z-10"
+              className="absolute left-0 border-white z-10"
               alt=""
             />
             <div className="float-right">
